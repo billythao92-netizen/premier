@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhotoShare</string>
+
+    <!-- MainActivity -->
+    <string name="btn_camera_desc">Prendre une photo</string>
+    <string name="btn_settings_desc">Paramètres</string>
+
+    <!-- RecipientsActivity -->
+    <string name="title_recipients">Envoyer à qui?</string>
+    <string name="btn_send">ENVOYER 🚀</string>
+    <string name="btn_back">← Retour</string>
+    <string name="error_no_selection">Choisis quelqu\'un d\'abord!</string>
+
+    <!-- CountdownActivity -->
+    <string name="sending_in">Envoi dans...</string>
+    <string name="btn_cancel">ANNULER ✋</string>
+
+    <!-- SettingsActivity -->
+    <string name="title_settings">Paramètres ⚙️</string>
+    <string name="settings_countdown_label">Durée du compte à rebours (secondes):</string>
+    <string name="btn_save">SAUVEGARDER</string>
+    <string name="settings_saved">Paramètres sauvegardés!</string>
+    <string name="settings_invalid_countdown">Entrer un nombre entre 1 et 60</string>
+
+    <!-- Sharing strings -->
+    <string name="sms_body">Regarde cette photo!</string>
+    <string name="email_subject">Une photo pour toi!</string>
+    <string name="email_body">Regarde cette belle photo!</string>
+    <string name="whatsapp_body">Regarde cette photo!</string>
+    <string name="choose_email_app">Choisir une application email</string>
+
+    <!-- Error messages -->
+    <string name="error_photo">Erreur avec la photo</string>
+    <string name="error_no_camera_app">Aucune application caméra trouvée</string>
+    <string name="error_whatsapp_not_installed">WhatsApp n\'est pas installé</string>
+    <string name="error_messenger_not_installed">Messenger n\'est pas installé</string>
+    <string name="error_send">Erreur envoi à %1$s via %2$s</string>
+
+    <!-- Permission messages -->
+    <string name="permission_camera_required">Permission caméra requise</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_photo">Photo à envoyer</string>
+</resources>

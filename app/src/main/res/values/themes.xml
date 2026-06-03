@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme - Material3 -->
+    <style name="Theme.PhotoShare" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <!-- Text appearance defaults - large for child-friendliness -->
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-rounded</item>
+    </style>
+
+    <!-- Fullscreen theme for CountdownActivity -->
+    <style name="Theme.PhotoShare.Fullscreen" parent="Theme.PhotoShare">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/colorRecipientCard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:minHeight="120dp">
+
+        <!-- Avatar circle -->
+        <TextView
+            android:id="@+id/tvAvatar"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="?"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@drawable/btn_avatar_circle" />
+
+        <!-- Name and channel buttons -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:fontFamily="sans-serif-rounded"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Channel buttons row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <!-- SMS button -->
+                <TextView
+                    android:id="@+id/btnSms"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="📱"
+                    android:textSize="26sp"
+                    android:gravity="center"
+                    android:background="@drawable/btn_channel_circle"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- Email button -->
+                <TextView
+                    android:id="@+id/btnEmail"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="📧"
+                    android:textSize="26sp"
+                    android:gravity="center"
+                    android:background="@drawable/btn_channel_circle"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- WhatsApp button -->
+                <TextView
+                    android:id="@+id/btnWhatsapp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="💚"
+                    android:textSize="26sp"
+                    android:gravity="center"
+                    android:background="@drawable/btn_channel_circle"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- Messenger button -->
+                <TextView
+                    android:id="@+id/btnMessenger"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="💬"
+                    android:textSize="26sp"
+                    android:gravity="center"
+                    android:background="@drawable/btn_channel_circle"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
